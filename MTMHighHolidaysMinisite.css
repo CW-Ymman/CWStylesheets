@@ -1,123 +1,122 @@
-<script>
-if ( document.location.href.indexOf('7468191') > -1) {
-const style = document.createElement('style');
-style.innerHTML = `
-.cco_templateless_page #chabad_main_content{
-background:url('https://midtownjewish.org/media/images/1382/xbGp13820689.png') !important;
-background-size:cover !important;
-background-position:bottom !important;
+.cco_templateless_page #chabad_main_content {
+  background: url('https://midtownjewish.org/media/images/1382/xbGp13820689.png') !important;
+  background-size: cover !important;
+  background-position: bottom !important;
 }
-.chabad_header{
-background:url('https://midtownjewish.org/media/images/1382/xIdi13820694.png') !important;
-background-size:100% 100%;
-background-repeat:no-repeat;
-background-color:#b53b07;
+.chabad_header {
+  background: url('https://midtownjewish.org/media/images/1382/xIdi13820694.png') !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #b53b07;
 }
-.cco_templateless_page .chabad_header, .chabad_header{
-background-blend-mode: normal !important;
+.cco_templateless_page .chabad_header, .chabad_header {
+  background-blend-mode: normal !important;
 }
-.chabad_header div{
-visibility:hidden;
+.chabad_header div {
+  visibility: hidden;
 }
-div.chabad_left_column{
-background:transparent;
+div.chabad_left_column {
+  background: transparent;
 }
-.large_banner, .sPromo-wrap{
-border:2px solid #b53b07;
+.large_banner, .sPromo-wrap {
+  border: 2px solid #b53b07;
 }
-.large_banner .bannerCta button{
-background:#b53b07;
-border:3px solid #b53b07;
+.large_banner .bannerCta button {
+  background: #b53b07;
+  border: 3px solid #b53b07;
 }
-.large_banner .big{
-color:#b53b07;
-font-weight:bold;
+.large_banner .big {
+  color: #b53b07;
+  font-weight: bold;
 }
-.large_banner .wrapper-message{
-margin-block:1.5em !important;
+.large_banner .wrapper-message {
+  margin-block: 1.5em !important;
 }
-.sPromo-wrap .caption{
-color:black !important;
+.sPromo-wrap .caption {
+  color: black !important;
 }
-.sPromo-wrap img{
-border:0px !important;
+.sPromo-wrap img {
+  border: 0px !important;
 }
-.custom_message .message{
-color:black !important;
+.custom_message .message {
+  color: black !important;
 }
-.custom_message .title{
-color:#b53b07 !important;
+.custom_message .title {
+  color: #b53b07 !important;
 }
-.custom_message .read-more_link a{
-color:#b53b07 !important;
-border:3px solid ##b53b07 !important;
+.custom_message .read-more_link a {
+  color: #b53b07 !important;
+  border: 3px solid #b53b07 !important;
 }
-.custom_message .read-more_link a:hover{
-background:#b53b07 !important;
-color:white !important;
+.custom_message .read-more_link a:hover {
+  background: #b53b07 !important;
+  color: white !important;
 }
-.prepResource-title, .co_calendar_head div, .features_title{
-font-size:25pt !important;
-color:#b53b07 !important;
+.prepResource-title, .co_calendar_head div, .features_title {
+  font-size: 25pt !important;
+  color: #b53b07 !important;
 }
-.prep-title, .feature_caption a{
-color:#b53b07 !important;
+.prep-title, .feature_caption a {
+  color: #b53b07 !important;
 }
-.zmanim .zman-1, .zmanim .zman-2{
-border-radius:10px !important;
-background:#b53b07 !important;
-margin:5px 0px !important;
+.zmanim .zman-1, .zmanim .zman-2 {
+  border-radius: 10px !important;
+  background: #b53b07 !important;
+  margin: 5px 0px !important;
 }
-#co_calendar div.co_calendar_body .item.item.first, #co_calendar div.co_calendar_body .item:nth-child(3), #co_calendar div.co_calendar_body .item:nth-child(6), #co_calendar div.co_calendar_body .item:nth-child(8){
-background:#b53b07;
+#co_calendar div.co_calendar_body .item.item.first, 
+#co_calendar div.co_calendar_body .item:nth-child(3), 
+#co_calendar div.co_calendar_body .item:nth-child(6), 
+#co_calendar div.co_calendar_body .item:nth-child(8) {
+  background: #b53b07;
 }
-#co_calendar div.co_calendar_body .item:nth-child(2), #co_calendar div.co_calendar_body .item:nth-child(4), #co_calendar div.co_calendar_body .item:nth-child(5), #co_calendar div.co_calendar_body .item:nth-child(7){
-background:#972d00;
+#co_calendar div.co_calendar_body .item:nth-child(2), 
+#co_calendar div.co_calendar_body .item:nth-child(4), 
+#co_calendar div.co_calendar_body .item:nth-child(5), 
+#co_calendar div.co_calendar_body .item:nth-child(7) {
+  background: #972d00;
 }
-.footer, .footer a{
-background#b53b07;
-color:white !important
+.footer, .footer a {
+  background: #b53b07;
+  color: white !important;
 }
-.cco_templateless_template a, .div#chabad_head .chabad_navigator_bar, #menu .item, #navigation, #menu a{
-background:#b53b07 !important;
+.cco_templateless_template a, .div#chabad_head .chabad_navigator_bar, #menu .item, #navigation, #menu a {
+  background: #b53b07 !important;
 }
-#menu a{
-color:white !important;
-border:0px !important;
+#menu a {
+  color: white !important;
+  border: 0px !important;
 }
-.selected a{
-text-decoration:underline !important;
+.selected a {
+  text-decoration: underline !important;
 }
-#menu .item{
-color:transparent !important;
+#menu .item {
+  color: transparent !important;
 }
-.titleIcon img{
-width:125px !important;
+.titleIcon img {
+  width: 125px !important;
 }
-.co_calendar_head:before, .pesach-resources .titleIcon{
-display:none !important;
+.co_calendar_head:before, .pesach-resources .titleIcon {
+  display: none !important;
 }
-div#chabad_body_content{
-background:transparent !important;
+div#chabad_body_content {
+  background: transparent !important;
 }
-@media all and (max-width:500px){
-.chabad_header{
-height:200px !important;
+@media all and (max-width: 500px) {
+  .chabad_header {
+    height: 200px !important;
+  }
+  .headerTitle {
+    display: none;
+  }
+  .body.section_root .bh {
+    right: 25px !important;
+    color: white !important;
+  }
 }
-.headerTitle{
-display:none;
+.co_calendar_text {
+  background-color: transparent !important;
 }
-.body.section_root .bh{
-right: 25px !important;
-color: white !important;
+.titleIcon img, .large_banner .textWrapper {
+  display: none !important;
 }
-}
-.co_calendar_text{
-background-color:transparent !important;
-}
-.titleIcon img, .large_banner .textWrapper{
-display:none !important;
-}
-`;
-document.head.appendChild(style);
-}</script>
